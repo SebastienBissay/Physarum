@@ -1,5 +1,6 @@
 public class Particle {
-    float x, y;
+    protected float x, y, heading;
+    public static float sensorAngle, sensorDistance, rotationAngle, deposition;
 
     public Particle(float x, float y){
         this.x = x;
