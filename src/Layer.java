@@ -1,7 +1,5 @@
 public class Layer {
-    int width;
-    int height;
-
+    int width, height;
     float[][] grid;
 
     public Layer(int width, int height) {
