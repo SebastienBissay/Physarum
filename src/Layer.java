@@ -1,6 +1,7 @@
 public class Layer {
     int width, height;
-    float[][] grid;
+    public float[][] grid;
+    public  float pheromoneVolatility, pheromoneDispersion;
 
     public Layer(int width, int height) {
         this.width = width;
