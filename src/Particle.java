@@ -11,4 +11,8 @@ public class Particle {
         x += stepSize * Math.cos(sensorAngle);
         y += stepSize * Math.sin(sensorAngle);
     }
+
+    void depositPheromone(Layer layer) {
+        layer.grid[(int) x][(int) y] += deposition;
+    }
 }
